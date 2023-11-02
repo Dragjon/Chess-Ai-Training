@@ -113,7 +113,7 @@ def find_best_moves(current_board, model, proportion = 0.5):
     
     best_moves = list(dict_.keys())
  
-    return best_moves[0:int(len(best_moves)*proportion)]
+    return best_moves[0:int(np.ceil(len(best_moves)*proportion))]
 
 pawn_white_eval = np.array([[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
                             [5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0],
