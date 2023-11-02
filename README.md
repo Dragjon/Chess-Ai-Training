@@ -16,6 +16,9 @@
 5. Go into the terminal
 6. Run `cd [path of the unzipped files]`
 7. And run `python chess_ai.py`
+# Playing against the completed model using google colaboratory
+1. Sign in to google colaboratory with your google account in https://colab.research.google.com/
+2. 
 # Creating a custom ai (Splitting pgn data)
 1. Navigate into raw_pgn_data and paste the pgn containing all the games played by a player
 2. Then in the terminal, run `python -m notebook` to start jupyter notebook
