@@ -11,6 +11,7 @@
 1. I have already trained the ai model on games played by Paul Morphy
 2. To run the ai, navigate into \latest_model\morphy and copy the file path
 3. Then edit chess_ai.py using notepad replacing `path_to_model = 'C:/Users/dragon/Documents/Chess-Ai-Training/latest_model/morphy'` with the actual file path you copied
-4. Go into the terminal
-5.  Run `cd [path of the unzipped files]`
-6.  And run `python chess_ai.py`
+4. Remember to replace the backward slash (\) with the forward slash (/)
+5. Go into the terminal
+6.  Run `cd [path of the unzipped files]`
+7.  And run `python chess_ai.py`
