@@ -42,8 +42,8 @@
 2. First, you must run the first code block containing all the import's necessary with shift + enter
 3. Then, replace this line `path_csv = 'C:/Users/dragon/Documents/Chess-Ai-Training/processed_pgn_data/morphy'` with `path_csv = '[PATH OF THE REPOSITORY]/processed_pgn_data/[NEW PLAYER NAME]'`
 4. Create the dir *estimator/[NAME OF NEW PLAYER]* 
-5. Then find this line of code below `linear_est = tf.estimator.LinearClassifier(feature_columns = feature_columns, model_dir='C:/Users/dragon/Documents/Chess-Ai-Training/estimator/morphy')` and replace it with `linear_est = tf.estimator.LinearClassifier(feature_columns = feature_columns, model_dir='[PATH OF THE REPOSITORY]/estimator/[NEW PLAYER NAME]')`
-6. Then replace the estimator base path `estimator_base_path = 'C:/Users/dragon/Documents/Chess-Ai-Training/estimator/morphy'` with `[PATH OF THE REPOSITORY]/estimator/[NEW PLAYER NAME]'`
+5. Then find this line of code below `linear_est = tf.estimator.LinearClassifier(feature_columns = feature_columns, model_dir='C:\\Users\\dragon\\Documents\\Chess-Ai-Training\\estimator\\morphy')` and replace it with `linear_est = tf.estimator.LinearClassifier(feature_columns = feature_columns, model_dir='[PATH OF THE REPOSITORY]\\estimator\\[NEW PLAYER NAME]')` !THE DOUBLE BACKWARD SLASH IS IMPORTANT HERE!
+6. Then replace the estimator base path `estimator_base_path = 'C:\\Users\\dragon\\Documents\\Chess-Ai-Training\\estimator\\morphy'` with `[PATH OF THE REPOSITORY]\\estimator\\[NEW PLAYER NAME]'`
 7. In your file system, you may need to navigate into *estimator* and create a new folder called: [NEW PLAYER NAME]
 8. You are all set, run this notebook from start to finish! This is going to take a few hours so why not take a rest. All your progress will be saved in the *estimator/[NEW PLAYER NAME]* folder.
 9. After the code runs, you can find your *saved_model.pb* file in one of the folders, eg. 1698915549 in your estimator folder.
