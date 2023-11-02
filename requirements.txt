@@ -1,0 +1,7 @@
+tensorflow
+pandas
+numpy
+scikit-learn
+chess
+python-chess
+ipython
