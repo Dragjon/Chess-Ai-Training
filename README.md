@@ -26,25 +26,28 @@
 3. Navigate to the directory of this repository
 4. Open *split_pgn_data.ipynb*
 5. Replace `input_pgn_file = 'C:/Users/dragon/Documents/Chess-Ai-Training/raw_pgn_data/Morphy.pgn'` with the file path for the pgn file containing your new pgn file.
-6. Replace `output_directory = 'split_pgn_data/morphy'` with `output_directory = 'split_pgn_data/[NAME OF NEW PLAYER]'` for the output after splitting the pgn files
-7. Then hit shift + enter to run the cell
-8. Check in your local file system that there is a new directory called `split_pgn_data/[NAME OF NEW PLAYER]` and it consist of the splitted pgn data and wait for the execution to complete.
+6. Create the dir *split_pgn_data/[NAME OF NEW PLAYER]* 
+7. Replace `output_directory = 'split_pgn_data/morphy'` with `output_directory = 'split_pgn_data/[NAME OF NEW PLAYER]'` for the output after splitting the pgn files. 
+8. Then hit shift + enter to run the cell
+9. Check in your local file system that there is a new directory called `split_pgn_data/[NAME OF NEW PLAYER]` and it consist of the splitted pgn data and wait for the execution to complete.
 # Creating a custom ai (Processing data into csvs)
 1. After splitting the pgn data, you will now need to open the *process_data.ipynb* file
 2. Similarly, replace this line of code `for dirname, _, filenames in os.walk('C:/Users/dragon/Documents/Chess-Ai-Training/split_pgn_data/morphy'):` with `for dirname, _, filenames in os.walk('[PATH OF THE REPOSITORY]/split_pgn_data/[NEW PLAYER NAME]'):`
-3. Also replace `new_dirname = 'C:/Users/dragon/Documents/Chess-Ai-Training/processed_pgn_data/morphy'`, which is where the csvs will be located with `new_dirname = '[PATH OF THE REPOSITORY]/processed_pgn_data/[NEW PLAYER NAME]'`
-4. Now, you can just hit shift + enter to run the cell
-5. Check in your local file system there is a new directory named `[PATH OF THE REPOSITORY]/processed_pgn_data/[new player name]`, note that this execution may take some time, depending on the number of games in your pgn.
+3. Create the dir *processed_pgn_data/[NAME OF NEW PLAYER]* 
+4. Also replace `new_dirname = 'C:/Users/dragon/Documents/Chess-Ai-Training/processed_pgn_data/morphy'`, which is where the csvs will be located with `new_dirname = '[PATH OF THE REPOSITORY]/processed_pgn_data/[NEW PLAYER NAME]'`
+5. Now, you can just hit shift + enter to run the cell
+6. Check in your local file system there is a new directory named `[PATH OF THE REPOSITORY]/processed_pgn_data/[new player name]`, note that this execution may take some time, depending on the number of games in your pgn.
 # Creating a custom ai (Training time)
 1. After finish proccessing the games you can open *engine_train.ipynb* for the REAL training.
 2. First, you must run the first code block containing all the import's necessary with shift + enter
 3. Then, replace this line `path_csv = 'C:/Users/dragon/Documents/Chess-Ai-Training/processed_pgn_data/morphy'` with `path_csv = '[PATH OF THE REPOSITORY]/processed_pgn_data/[NEW PLAYER NAME]'`
-4. Then find this line of code below `linear_est = tf.estimator.LinearClassifier(feature_columns = feature_columns, model_dir='C:/Users/dragon/Documents/Chess-Ai-Training/estimator/morphy')` and replace it with `linear_est = tf.estimator.LinearClassifier(feature_columns = feature_columns, model_dir='[PATH OF THE REPOSITORY]/estimator/[NEW PLAYER NAME]')`
-5. Then replace the estimator base path `estimator_base_path = 'C:/Users/dragon/Documents/Chess-Ai-Training/estimator/morphy'` with `[PATH OF THE REPOSITORY]/estimator/[NEW PLAYER NAME]'`
-6. In your file system, you may need to navigate into *estimator* and create a new folder called: [NEW PLAYER NAME]
-7. You are all set, run this notebook from start to finish! This is going to take a few hours so why not take a rest. All your progress will be saved in the *estimator/[NEW PLAYER NAME]* folder.
-8. After the code runs, you can find your *saved_model.pb* file in one of the folders, eg. 1698915549 in your estimator folder.
-9. Now you can move the folder into the *latest_model* folder and change the model folder name to *[NEW PLAYER NAME]*
+4. Create the dir *estimator/[NAME OF NEW PLAYER]* 
+5. Then find this line of code below `linear_est = tf.estimator.LinearClassifier(feature_columns = feature_columns, model_dir='C:/Users/dragon/Documents/Chess-Ai-Training/estimator/morphy')` and replace it with `linear_est = tf.estimator.LinearClassifier(feature_columns = feature_columns, model_dir='[PATH OF THE REPOSITORY]/estimator/[NEW PLAYER NAME]')`
+6. Then replace the estimator base path `estimator_base_path = 'C:/Users/dragon/Documents/Chess-Ai-Training/estimator/morphy'` with `[PATH OF THE REPOSITORY]/estimator/[NEW PLAYER NAME]'`
+7. In your file system, you may need to navigate into *estimator* and create a new folder called: [NEW PLAYER NAME]
+8. You are all set, run this notebook from start to finish! This is going to take a few hours so why not take a rest. All your progress will be saved in the *estimator/[NEW PLAYER NAME]* folder.
+9. After the code runs, you can find your *saved_model.pb* file in one of the folders, eg. 1698915549 in your estimator folder.
+10. Now you can move the folder into the *latest_model* folder and change the model folder name to *[NEW PLAYER NAME]*
 # Creating a custom ai (Running the custom model)
 1. Open the *chess_ai.py* file with notepad
 2. Change `path_to_model = 'C:/Users/dragon/Documents/Chess-Ai-Training/latest_model/morphy'` to `path_to_model = '[PATH OF THE REPOSITORY]/latest_model/[NEW PLAYER NAME]'`
