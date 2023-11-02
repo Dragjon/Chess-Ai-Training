@@ -8,8 +8,8 @@
 1.  Download all the files in this github repository by clicking *Code* and the *Download zip*
 2.  Then unzip the all the files
 # Running the completed model
-1. To run the completed model (which is in python) you have to first navigate to the directory the unzipped files are located nusing the terminal
-2. Navigate into \latest_model\morphy and copy the file path
+1. I have already trained the ai model on games played by Paul Morphy
+2. To run the ai, navigate into \latest_model\morphy and copy the file path
 3. Then edit chess_ai.py using notepad replacing `path_to_model = 'C:/Users/dragon/Documents/Chess-Ai-Training/latest_model/morphy'` with the actual file path you copied
 4. Go into the terminal
 5.  Run `cd [path of the unzipped files]`
