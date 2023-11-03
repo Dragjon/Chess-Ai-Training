@@ -23,14 +23,15 @@
 3. And just run all the code cells and you are good!
 # Creating a custom ai (Splitting pgn data)
 1. Navigate into raw_pgn_data and paste the pgn containing all the games played by a player
-2. Then in the terminal, run `python -m notebook` to start jupyter notebook
-3. Navigate to the directory of this repository
-4. Open *split_pgn_data.ipynb*
-5. Replace `input_pgn_file = 'C:/Users/dragon/Documents/Chess-Ai-Training/raw_pgn_data/Morphy.pgn'` with the file path for the pgn file containing your new pgn file.
-6. Create the dir *split_pgn_data/[NAME OF NEW PLAYER]* 
-7. Replace `output_directory = 'split_pgn_data/morphy'` with `output_directory = 'split_pgn_data/[NAME OF NEW PLAYER]'` for the output after splitting the pgn files. 
-8. Then hit shift + enter to run the cell
-9. Check in your local file system that there is a new directory called `split_pgn_data/[NAME OF NEW PLAYER]` and it consist of the splitted pgn data and wait for the execution to complete.
+2. You can find many games played by Grandmasters here https://www.pgnmentor.com/files.html
+3. Then in the terminal, run `python -m notebook` to start jupyter notebook
+4. Navigate to the directory of this repository
+5. Open *split_pgn_data.ipynb*
+6. Replace `input_pgn_file = 'C:/Users/dragon/Documents/Chess-Ai-Training/raw_pgn_data/Morphy.pgn'` with the file path for the pgn file containing your new pgn file.
+7. Create the dir *split_pgn_data/[NAME OF NEW PLAYER]* 
+8. Replace `output_directory = 'split_pgn_data/morphy'` with `output_directory = 'split_pgn_data/[NAME OF NEW PLAYER]'` for the output after splitting the pgn files. 
+9. Then hit shift + enter to run the cell
+10. Check in your local file system that there is a new directory called `split_pgn_data/[NAME OF NEW PLAYER]` and it consist of the splitted pgn data and wait for the execution to complete.
 # Creating a custom ai (Processing data into csvs)
 1. After splitting the pgn data, you will now need to open the *process_data.ipynb* file
 2. Similarly, replace this line of code `for dirname, _, filenames in os.walk('C:/Users/dragon/Documents/Chess-Ai-Training/split_pgn_data/morphy'):` with `for dirname, _, filenames in os.walk('[PATH OF THE REPOSITORY]/split_pgn_data/[NEW PLAYER NAME]'):`
