@@ -282,7 +282,7 @@ def minimax(depth, board, alpha, beta, is_maximising_player):
 
 
 def minimax_root(depth, board, is_maximising_player = True):
-  #only search the top 50% moves
+
   legal_moves = find_best_moves(board, model)
   best_move = -9999
   best_move_found = None
