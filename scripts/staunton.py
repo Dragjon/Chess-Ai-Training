@@ -338,11 +338,11 @@ def ai_play_turn(current_board):
   nb_moves = len(list(current_board.legal_moves))
    
   if(nb_moves > 30):
-    current_board.push(minimax_root(3, current_board))
-  elif(nb_moves > 10 and nb_moves <= 30):
     current_board.push(minimax_root(4, current_board))
+  elif(nb_moves > 10 and nb_moves <= 30):
+    current_board.push(minimax_root(5, current_board))
   else:
-    current_board.push(minimax_root(6, current_board))
+    current_board.push(minimax_root(7, current_board))
   return
 
 
