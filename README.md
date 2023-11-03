@@ -8,7 +8,7 @@
 1.  Download all the files in this github repository by clicking *Code* and the *Download zip*
 2.  Then unzip the all the files
 3.  After that, open terminal and run `pip install -r requirements.txt` to install all required modules and dependencies.
-# Playing the completed model
+# Playing the default model (morphy)
 1. I have already trained the ai model on games played by Paul Morphy
 2. To run the ai, navigate into \latest_model\morphy and copy the file path, or you can do it for any other pretrained models there too
 3. Then edit *chess_ai.py* using notepad replacing `path_to_model = 'C:/Users/dragon/Documents/Chess-Ai-Training/latest_model/morphy'` with the actual file path you copied
@@ -17,6 +17,13 @@
 6. Run `cd [path of the unzipped files]`
 7. And run `python chess_ai.py`
 8. To play against a lower depth version, which I recommend, run `python chess_ai_lowerdepth.py`
+# Playing against other models
+1. Navigate into /scripts for normal depth or /scripts-for-lowerdepth for lowerdepth version
+2. Then edit *[NAME OF PLAYER].py* using notepad replacing `path_to_model = 'C:/Users/dragon/Documents/Chess-Ai-Training/latest_model/morphy'` with the actual file path you copied
+3. Remember to replace the backward slash (\\) with the forward slash (/)
+4. Go into the terminal
+5. Run `cd [path of the unzipped files]/scripts` or `cd [path of the unzipped files]/scripts-for lowerdepth` 
+6. And run `python [NAME OF PLAYER].py`
 # Playing against the completed model using google colaboratory
 1. Sign in to google colaboratory with your google account in https://colab.research.google.com/
 2. Then access this colaboratory link https://colab.research.google.com/drive/1nxjoaTGyaluC8SDsb9VZEeLL5U3hXGP0?usp=sharing
