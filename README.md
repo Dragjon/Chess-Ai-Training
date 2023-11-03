@@ -55,4 +55,4 @@
 3. Save the updated python file
 4. Run it with `python chess_ai.py` and play against your newly created ai!
 # Games it had played
-1. White: Chess Ai trained with Marshall's games at lowerdepth, Black: Me, rating 2000 (https://lichess.org/8uxS4c1G/)
+1. White: Chess Ai trained with Marshall's games at lowerdepth, Black: Me, rated 2000 on chess.com (https://lichess.org/8uxS4c1G/)
