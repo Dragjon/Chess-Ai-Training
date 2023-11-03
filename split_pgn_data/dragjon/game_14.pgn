@@ -1,0 +1,18 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/6ssaKJvQ"]
+[Date "2023.07.28"]
+[Round "?"]
+[White "Chess123easy"]
+[Black "simpleEval"]
+[Result "0-1"]
+[UTCDate "2023.07.28"]
+[UTCTime "12:53:10"]
+[WhiteElo "2079"]
+[BlackElo "2301"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+0"]
+[ECO "B00"]
+[Termination "Normal"]
+
+1. e4 Nc6 2. d4 e5 3. d5 Nce7 4. c4 Ng6 5. Nc3 a6 6. h4 Nxh4 7. Qg4 Ng6 8. Nf3 Bb4 9. Qg5 Qxg5 10. Bxg5 d6 11. Bd3 h6 12. Bd2 Nf6 13. O-O-O Ng4 14. Rhf1 Bc5 15. Be1 Nf4 16. g3 Ng2 17. Na4 Nxe1 18. Nxe1 Bxf2 19. Nc2 Bxg3 20. Rg1 Bf4+ 21. Kb1 Nf2 0-1

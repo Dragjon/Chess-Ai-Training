@@ -1,0 +1,12 @@
+[Event "Monte Carlo"]
+[Site "Monte Carlo"]
+[Date "1902.??.??"]
+[Round "?"]
+[White "Mason, James"]
+[Black "Marshall, Frank James"]
+[Result "0-1"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "A21"]
+
+1. c4 e5 2. Nc3 f5 3. e4 Nf6 4. d3 Nc6 5. exf5 Bb4 6. Bd2 O-O 7. g4 d5 8. cxd5 Bxc3 9. Bxc3 Qxd5 10. Qf3 Qc5 11. Ne2 Nb4 12. Rc1 Nxg4 13. Qxg4 Nxd3+ 14. Kd2 Bxf5 15. Bb4 Qxb4+ 16. Qxb4 Nxb4 17. Nc3 Rad8+ 18. Ke3 Nc2+ 19. Kf3 Rd4 20. Rg1 Be4+ 21. Kg3 Rf3+ 22. Kg4 Bd5+ 23. Kg5 h6+ 24. Kh5 Bf7+ 25. Rg6 Rf5# 0-1

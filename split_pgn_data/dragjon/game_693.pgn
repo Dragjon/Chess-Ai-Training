@@ -1,0 +1,18 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9AakW9V6"]
+[Date "2021.12.21"]
+[Round "?"]
+[White "Chess123easy"]
+[Black "maia5"]
+[Result "1-0"]
+[UTCDate "2021.12.21"]
+[UTCTime "10:57:05"]
+[WhiteElo "1693"]
+[BlackElo "1671"]
+[BlackTitle "BOT"]
+[Variant "Standard"]
+[TimeControl "300+3"]
+[ECO "C44"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3 Bc5 4. d4 exd4 5. cxd4 Bb4+ 6. Bd2 Bxd2+ 7. Nbxd2 d6 8. Bc4 Bg4 9. Qb3 Qe7 10. Qxb7 Rb8 11. Qxc6+ Bd7 12. Qa6 Rxb2 13. Qxa7 Nf6 14. Qa8+ Qd8 15. Qxd8+ Kxd8 16. Bb3 Re8 17. e5 dxe5 18. dxe5 Ng4 19. O-O Nxe5 20. Rfe1 Nxf3+ 21. Nxf3 Rxe1+ 22. Rxe1 f6 23. Nd4 c5 24. Ne6+ Bxe6 25. Bxe6 Ke7 26. g3 Kd6 27. Bc4 Rc2 28. Bd3 Rxa2 29. Bxh7 c4 30. Rc1 Kc5 31. Kg2 Kb4 32. Bg8 c3 33. Bxa2 Ka3 34. Rxc3+ Kxa2 35. Rc7 g5 36. Rf7 f5 37. Rxf5 g4 38. Rg5 Kb3 39. Rxg4 Kc3 40. h4 Kd3 41. h5 Ke2 42. h6 Ke1 43. h7 Ke2 44. h8=Q Ke1 45. Qc3+ Ke2 46. Re4+ Kd1 47. Re1# 1-0
