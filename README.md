@@ -54,3 +54,6 @@
 2. Change `path_to_model = 'C:/Users/dragon/Documents/Chess-Ai-Training/latest_model/morphy'` to `path_to_model = '[PATH OF THE REPOSITORY]/latest_model/[NEW PLAYER NAME]'`
 3. Save the updated python file
 4. Run it with `python chess_ai.py` and play against your newly created ai!
+# Games it had played
+1. White: Chess Ai trained with Marshall's games at lowerdepth, Black: Me, rated 2000 on chess.com (https://lichess.org/8uxS4c1G/)
+2. White: Chess Ai trained with Morphy's games at lowerdepth, Black: Me, rated 2000 on chess.com (https://lichess.org/o3g4hr4T)
