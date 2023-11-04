@@ -65,3 +65,4 @@
 # Games it had played
 1. White: Chess Ai trained with Marshall's games at lowerdepth, Black: Me, rated 2000 on chess.com (https://lichess.org/8uxS4c1G/)
 2. White: Chess Ai trained with Morphy's games at lowerdepth, Black: Me, rated 2000 on chess.com (https://lichess.org/o3g4hr4T)
+3. White: Chess Ai trained with Morphy's games, Black: Me, rated 2000 on chess.com (https://lichess.org/NFxZZP5g)
