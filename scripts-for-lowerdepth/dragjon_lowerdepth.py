@@ -243,6 +243,11 @@ def get_piece_value(piece, square):
 def evaluate_board(board):
   """Return the evaluation of a board
   """
+  if board.can_claim_draw():
+    return 0
+  if board.is_stalemate():
+    return 0
+
   evaluation = 0
   for square in chess.SQUARES:
     piece = str(board.piece_at(square))
